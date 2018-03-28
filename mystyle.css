@@ -1,0 +1,136 @@
+body{
+    margin: 0 ;
+    width: 100%;
+    height: 1400px;
+    background-color: snow;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#abc{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+/*    -webkit-box-shadow:0 0 30px green;
+    -moz-box-shadow:0 0 30px green;*/
+    box-shadow:0 0 30px #27ae60;
+}
+.header{
+    margin: 0 auto;
+    width: 80%;
+    height: 10%;
+}
+.header h1{
+    float: left;
+    padding-top: 20px;
+}
+.header ul{
+    float: right;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.header li{
+    line-height: 50px;
+    display: inline;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 10px;
+}
+.header a{
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+.body{
+    margin: 0 auto;
+    width: 90%;
+    height: 85%;
+    background-color: snow;
+
+}
+.article{
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+    width: 70%;
+    height:90%;
+}
+.html,.css,.javascript,.php{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height:25%;
+    border:3px double #000;
+    border-radius:15px;
+    /*border-right-style:dotted;*/
+}
+.html h4,.css h4,.javascript h4,.php h4{
+     height:10px;
+     padding-left: 10px;
+     font: 15px 'Open Sans';
+ }
+.html h4{
+    color:#337ab7;
+}
+.css h4{
+    color: green;
+}
+.javascript h4{
+    color: blueviolet;
+}
+.php h4{
+    color: magenta;
+}
+h4:before{
+    content: '\258A';
+}
+.html-label ul,.other-label ul{
+    margin: 0 auto;
+}
+.html-label ul li,.other-label ul li{
+    list-style: none;
+    /*padding: 3px;*/
+    display: inline;
+}
+.html-label ul li span,.other-label ul li span{
+    background-color: #337ab7;
+    border-radius:5px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+}
+.html-label ul li span a,.other-label ul li span a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align:center;
+    font-family: Serif;
+    font-size: 12px;
+    font-weight:bold;
+}
+.catalog{
+    margin: 0;
+    padding: 10px;
+    float: right;
+    width: 24%;
+}
+.catalog h3{
+    float: top;
+    font: 20px 'Open Sans';
+}
+.footing{
+    height: 5%;
+    /*padding-bottom:15px ;*/
+    background-color: #2B3A42;
+    text-align: center;
+    font-size: 20px;
+    color: #27ae60;
+}
+.footing h3{
+   padding-top: 20px;
+}
+
+
